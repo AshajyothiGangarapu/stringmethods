@@ -15,5 +15,9 @@ public class StringManipulation {
 		else
 			System.out.println("entered text does not starts with hello");
 	}
+	public void replace(String s1)
+		{
+			String s2=s1.replace("hello");
+		}
 
 }
